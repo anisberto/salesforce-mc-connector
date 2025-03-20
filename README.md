@@ -90,10 +90,6 @@ const resultado = await connector.query('MinhaDataExtension', {
 console.log(resultado);
 ```
 
-## 📄 Documentação
-
-Consulte a documentação completa no repositório oficial do GitHub: [Salesforce MC Connector](https://github.com/anisberto/salesforce-mc-connector)
-
 ## 🛡️ Licença
 Este projeto é licenciado sob a MIT License - veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
