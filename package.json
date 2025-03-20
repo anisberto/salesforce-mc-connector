@@ -1,6 +1,6 @@
 {
     "name": "salesforce-mc-connector",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "Biblioteca genérica para integração com Data Extensions do Salesforce Marketing Cloud",
     "main": "dist/index.js",
     "module": "dist/index.esm.js",
