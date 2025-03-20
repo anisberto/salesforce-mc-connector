@@ -28,12 +28,12 @@
     "license": "MIT",
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/seu-usuario/salesforce-mc-connector.git"
+      "url": "git+https://github.com/anisberto/salesforce-mc-connector.git"
     },
     "bugs": {
-      "url": "https://github.com/seu-usuario/salesforce-mc-connector/issues"
+      "url": "https://github.com/anisberto/salesforce-mc-connector/issues"
     },
-    "homepage": "https://github.com/seu-usuario/salesforce-mc-connector#readme",
+    "homepage": "https://github.com/anisberto/salesforce-mc-connector#readme",
     "devDependencies": {
       "@babel/core": "^7.23.2",
       "@babel/preset-env": "^7.23.2",
