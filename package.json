@@ -1,0 +1,53 @@
+{
+    "name": "salesforce-mc-connector",
+    "version": "1.0.0",
+    "description": "Biblioteca genérica para integração com Data Extensions do Salesforce Marketing Cloud",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+      "dist",
+      "src"
+    ],
+    "scripts": {
+      "build": "rollup -c",
+      "test": "jest",
+      "lint": "eslint src --ext .js,.ts",
+      "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+      "salesforce",
+      "marketing-cloud",
+      "data-extension",
+      "sfmc",
+      "api",
+      "connector",
+      "integration"
+    ],
+    "author": "Anisberto dos Reis <anisbertoos@gmail.com>",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/seu-usuario/salesforce-mc-connector.git"
+    },
+    "bugs": {
+      "url": "https://github.com/seu-usuario/salesforce-mc-connector/issues"
+    },
+    "homepage": "https://github.com/seu-usuario/salesforce-mc-connector#readme",
+    "devDependencies": {
+      "@babel/core": "^7.23.2",
+      "@babel/preset-env": "^7.23.2",
+      "@rollup/plugin-babel": "^6.0.4",
+      "@rollup/plugin-commonjs": "^25.0.7",
+      "@rollup/plugin-node-resolve": "^15.2.3",
+      "@rollup/plugin-terser": "^0.4.4",
+      "eslint": "^8.53.0",
+      "jest": "^29.7.0",
+      "rollup": "^4.3.0",
+      "rollup-plugin-typescript2": "^0.36.0",
+      "typescript": "^5.2.2"
+    },
+    "dependencies": {
+      "cross-fetch": "^4.0.0"
+    }
+  }
