@@ -15,6 +15,9 @@ coverage/
 .idea/
 *.swp
 *.swo
+*.idea
+.idea/*
+.idea
 
 # Logs
 npm-debug.log*
