@@ -34,7 +34,3 @@ Thumbs.db
 *.tmp
 *.log
 
-# Testes
-*.test.js
-*.spec.js
-.jest/
